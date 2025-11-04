@@ -1,3 +1,5 @@
+// ex02.js
+
 function greetings(firstname) {
 	return `Bienvenue, ${firstname}!`;
 }
