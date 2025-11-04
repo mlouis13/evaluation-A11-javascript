@@ -1,6 +1,10 @@
-function getReduction(price, age) {
-	// Écrire le code ici
+function isEnoughMoney(price, wallet) {
+	if (price < wallet) {
+		return true;
+	} else {
+		return false;
+	}
 }
 
-console.log(getReduction(10, 5)); // Résultat attendu: 0
-console.log(getReduction(150, 25)); // Résultat attendu: 45
+console.log(isEnoughMoney(10, 0)); // Résultat attendu: false
+console.log(isEnoughMoney(5, 25)); // Résultat attendu: true
